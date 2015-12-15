@@ -1,0 +1,11 @@
+/SoapWS/*.classpath
+/SoapWS/*.project
+/SoapWS/.settings/*.jsdtscope
+/SoapWS/.settings/*.prefs
+/SoapWS/.settings/*.component
+/SoapWS/.settings/*.xml
+/SoapWS/.settings/*.container
+/SoapWS/.settings/*.name
+/SoapWSEAR/*.project
+/SoapWSEAR/.settings/*.component
+/SoapWSEAR/.settings/*.xml
