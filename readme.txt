@@ -171,3 +171,14 @@ Strengths
 
 Weaknesses
 1. The WSDL is even more complicated.
+
+
+Literal use Model
+When using a literal use model, the body contents should conform to a user-defined XML-schema(XSD) structure. 
+The advantage is two-fold. For one, you can validate the message body with the user-defined XML-schema,
+ moreover, you can also transform the message using a transformation language like XSLT.
+
+Encoded use Model
+With a (SOAP) encoded use model, the message has to use XSD datatypes, 
+but the structure of the message need not conform to any user-defined XML schema. 
+This makes it difficult to validate the message body or use XSLT based transformations on the message body.
